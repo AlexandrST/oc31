@@ -159,6 +159,7 @@ class ControllerMarketplaceMarketplace extends Controller {
 
 		echo "test";
 		$response = curl_exec($curl);
+		echo $curl;
 
 		$status = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 
