@@ -155,7 +155,7 @@ class ControllerMarketplaceMarketplace extends Controller {
 //		curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
 		curl_setopt($curl, CURLOPT_FORBID_REUSE, 1);
 		curl_setopt($curl, CURLOPT_FRESH_CONNECT, 1);
-		curl_setopt($curl, CURLOPT_POST, 1);
+//		curl_setopt($curl, CURLOPT_POST, 1);
 
 		echo "test";
 		$response = curl_exec($curl);
